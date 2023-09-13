@@ -1,0 +1,9 @@
+
+spring:
+  main:
+    allow-circular-references: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/logistics_system
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
